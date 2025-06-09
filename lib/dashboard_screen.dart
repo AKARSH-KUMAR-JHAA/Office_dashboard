@@ -1,16 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:internship_project/fifth_widget.dart';
 import 'package:internship_project/first_widget.dart';
 import 'package:internship_project/fourth_widget.dart';
 import 'package:internship_project/second_widget.dart';
-import 'package:internship_project/side_nav_bar.dart';
-import 'package:internship_project/sixth_widget.dart';
 import 'package:internship_project/third_widget.dart';
-import 'package:sidebarx/sidebarx.dart';
 import 'package:standard_searchbar/new/standard_search_anchor.dart';
 import 'package:standard_searchbar/new/standard_search_bar.dart';
 import 'package:standard_searchbar/new/standard_suggestions.dart';
-import 'package:table_calendar/table_calendar.dart';
 
 import 'calender_widget.dart';
 

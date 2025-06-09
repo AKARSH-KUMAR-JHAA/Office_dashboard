@@ -3,11 +3,11 @@ import 'package:internship_project/dashboard_screen.dart';
 import 'package:sidebarx/sidebarx.dart';
 
 void main() {
-  runApp(SidebarXExampleApp());
+  runApp(Office());
 }
 
-class SidebarXExampleApp extends StatelessWidget {
-  SidebarXExampleApp({Key? key}) : super(key: key);
+class Office extends StatelessWidget {
+  Office({super.key});
 
   final _controller = SidebarXController(selectedIndex: 0, extended: true);
   final _key = GlobalKey<ScaffoldState>();
@@ -71,10 +71,9 @@ class SidebarXExampleApp extends StatelessWidget {
 
 class ExampleSidebarX extends StatelessWidget {
   const ExampleSidebarX({
-    Key? key,
+    super.key,
     required SidebarXController controller,
-  })  : _controller = controller,
-        super(key: key);
+  })  : _controller = controller;
 
   final SidebarXController _controller;
 
@@ -169,17 +168,7 @@ class ExampleSidebarX extends StatelessWidget {
     );
   }
 
-  void _showDisabledAlert(BuildContext context) {
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text(
-          'Item disabled for selecting',
-          style: TextStyle(color: Colors.black),
-        ),
-        backgroundColor: Colors.white,
-      ),
-    );
-  }
+
 }
 
 class _ScreensExample extends StatelessWidget {

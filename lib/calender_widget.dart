@@ -19,7 +19,7 @@ class CalenderWidget extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(15),
               child: Text(
-                "General 10:00 AM  to  7:00 PM",
+                "General 10:00 AM  to  7:00 PM ",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
